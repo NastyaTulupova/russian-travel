@@ -1,9 +1,7 @@
 # Проект: Путешествие по России
 
 ### Обзор
-* Интро
-* Figma
-* Картинки
+* [Ссылка на сайт](https://nastyatulupova.github.io/russian-travel/)
 
 **Интро**
 
