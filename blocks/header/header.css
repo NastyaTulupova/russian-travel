@@ -1,0 +1,9 @@
+.header {
+  /* другая ширина для 320 и 768
+     другой паддинг для 320
+     другая высота для 320*/
+  width: calc(100% - 48px*2);
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+}

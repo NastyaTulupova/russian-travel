@@ -1,0 +1,8 @@
+.lead__image-group {
+  width: 100%;
+  max-height: 580px;
+  /* другая высота на ост экранах*/
+  display: flex;
+  justify-content: center;
+  position: relative;
+}

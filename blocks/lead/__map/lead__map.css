@@ -1,0 +1,9 @@
+.lead__map {
+  /* неточные размеры относительно родителя понять какие */
+  top: 15%;
+  height: 43%;
+  width: 95%;
+  position: absolute;
+  z-index: 2;
+  box-sizing: border-box;
+}
