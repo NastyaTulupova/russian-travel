@@ -9,7 +9,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   padding-bottom: 92px; /*др для других разрешений*/
-  max-width: 100%;
+  width: 1184px;
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
 }
 
