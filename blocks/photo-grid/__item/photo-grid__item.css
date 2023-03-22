@@ -1,0 +1,11 @@
+.photo-grid__item {
+  width: 284px;
+  object-fit: cover;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;}
+
+  @media screen and (max-width: 1024px) {
+    .photo-grid__item {
+      width: 300px;
+    }}

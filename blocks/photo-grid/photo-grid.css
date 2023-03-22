@@ -1,0 +1,21 @@
+.photo-grid {
+  display: grid;
+  gap: 14px; /*др для других разрешений*/
+ /* min-height: 942px; /*др для других разрешений*/
+  /*grid-template-columns: repeat(3, 1fr);*/
+ /* grid-template-columns: repeat(auto-fit, minmax(284px, max-content));*/
+  grid-template-rows: auto;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-bottom: 92px; /*др для других разрешений*/
+  max-width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    gap: 16px;
+    width: 928px;
+  }
+}
