@@ -1,0 +1,15 @@
+.cover {
+  width: 1184px;
+  min-height: 740px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover{
+  width: 1024px;
+  min-height: 640px;
+}}
+
