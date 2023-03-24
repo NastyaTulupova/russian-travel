@@ -18,3 +18,18 @@
   .cover__title {
     margin-top: 195px;
 }}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    margin-top: 115px;
+}}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    margin-top: 33px;
+    margin-bottom: 16px;
+    max-width: 288px;
+    min-height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+}}

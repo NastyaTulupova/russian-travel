@@ -17,3 +17,17 @@
   .cover__subtitle {
   margin: 0 0 195px 0;
 }}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+  margin: 0 0 115px 0;
+}}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+  margin: 0 0 33px 0;
+  max-width: 288px;
+  min-height: 48px;
+  font-size: 14px;
+  line-height: 16px;
+}}
