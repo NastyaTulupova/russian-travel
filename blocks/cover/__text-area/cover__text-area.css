@@ -1,0 +1,14 @@
+.cover__text-area {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: absolute;
+  z-index: 3;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__text-area {
+    gap: 16px;
+  }
+}

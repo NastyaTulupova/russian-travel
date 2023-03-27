@@ -6,12 +6,12 @@
   line-height: 16px;
   margin-left: auto;
   color: #FFF;
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
     margin-left: 0;
-    align-self: flex-end;
     line-height: 14px;
   }
 }

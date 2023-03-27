@@ -1,21 +1,29 @@
 .photo-grid {
-  display: grid;
-  gap: 14px; /*др для других разрешений*/
- /* min-height: 942px; /*др для других разрешений*/
-  /*grid-template-columns: repeat(3, 1fr);*/
- /* grid-template-columns: repeat(auto-fit, minmax(284px, max-content));*/
-  grid-template-rows: auto;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   padding-bottom: 92px; /*др для других разрешений*/
-  width: 1184px;
-  grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+  max-width: calc(100% - 48px*2);
+ /*max-width: 1184px;*/
+ margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    gap: 16px;
-    width: 928px;
+    max-width: calc(100% - 48px*2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    max-width: calc(100% - 24px*2);
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    max-width: calc(100% - 16px*2);
+    padding-bottom: 64px;
   }
 }

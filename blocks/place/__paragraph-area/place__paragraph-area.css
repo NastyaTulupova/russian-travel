@@ -1,0 +1,37 @@
+.place__paragraph-area {
+  max-width: 484px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  grid-area: paragraph;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph-area {
+    max-width: 456px;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph-area {
+    max-width: 352px;
+    gap: 23px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 640px) {
+  .place__paragraph-area {
+    max-width: calc(100% - 16px*2);
+    gap: 23px;
+    margin: 0 0 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph-area {
+    max-width: 288px;
+    gap: 23px;
+    margin: 0 0 0 16px;
+  }
+}

@@ -1,6 +1,5 @@
 .content {
-  max-width: 1280px;
-  margin: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,18 +10,3 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
-
-@media screen and (max-width: 1024px) {
-  .content {
-    max-width: 1024px;
-}}
-
-@media screen and (max-width: 768px) {
-  .content {
-    max-width: 768px;
-}}
-
-@media screen and (max-width: 768px) {
-  .content {
-    max-width: 320px;
-}}

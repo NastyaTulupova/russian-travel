@@ -4,6 +4,7 @@
   position: absolute;
   z-index: 2;
   transition: cover__overlay 4s ease-in-out;
+  max-width: 100%;
 }
 
 .cover__overlay:hover {
