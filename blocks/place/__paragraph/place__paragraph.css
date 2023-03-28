@@ -3,7 +3,8 @@
   margin: 0;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
+  /*pixel-perfect*/
+  line-height: 160%;
   color: #FFFFFF;
 }
 

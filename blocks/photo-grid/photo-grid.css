@@ -2,9 +2,8 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  padding-bottom: 92px; /*др для других разрешений*/
+  padding-bottom: 92px;
   max-width: calc(100% - 48px*2);
- /*max-width: 1184px;*/
  margin: 0 auto;
 }
 

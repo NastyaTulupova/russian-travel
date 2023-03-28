@@ -4,11 +4,13 @@
   margin: 0;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
   color: #FFF;
   max-width: 460px;
   min-height: 76px;
+  align-self: center;
   grid-area: title;
+  /*pixelperfect:*/
+  line-height: 77px;
 }
 
 @media screen and (max-width: 1024px) {

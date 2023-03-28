@@ -2,7 +2,8 @@
   max-width: 484px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  /*pixel perfect:*/
+  gap: 24px;
   grid-area: paragraph;
 }
 

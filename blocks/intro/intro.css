@@ -1,6 +1,7 @@
 .intro {
-  padding-top: 94px;
-  padding-bottom: 89px;
+  /* padding-top, padding-bottom отличаются от макета для совпадения с pixel perfect*/
+  padding-top: 92px;
+  padding-bottom: 91px;
   padding-left: 148px;
   max-width: 690px;
   min-height: 429px;

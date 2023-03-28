@@ -1,6 +1,7 @@
 .place {
   display: grid;
-  row-gap: 40px;
+  /*row-gap отличается от макета для pixel perfect*/
+  row-gap: 48px;
   column-gap: 40px;
   grid-template-columns: repeat(2, minmax(min-content, max-content));
   grid-template-rows: repeat(4, minmax(min-content, max-content));
