@@ -3,13 +3,7 @@
   padding-bottom: 24px;
   width: calc(100% - 48px*2);
   /*pixel perfect*/
-  padding-top: 91px;
-}
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    width: calc(100% - 48px*2);
-  }
+  padding-top: 93px;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,11 +12,22 @@
   }
 }
 
+@media screen and (max-width: 510px) {
+  .footer {
+    width: calc(100% - 16px*2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 89px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .footer {
     flex-direction: column;
     justify-content: space-between;
-    max-width: 186px;
     min-height: 310px;
     margin: 0 0 0 16px;
     padding-top: 64px;

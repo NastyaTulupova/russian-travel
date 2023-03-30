@@ -7,16 +7,10 @@
  margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
-  .photo-grid {
-    max-width: calc(100% - 48px*2);
-  }
-}
-
 @media screen and (max-width: 768px) {
   .photo-grid {
     max-width: calc(100% - 24px*2);
-    padding-bottom: 88px;
+    padding-bottom: 89px;
   }
 }
 

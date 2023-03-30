@@ -6,12 +6,23 @@
   color: #FFF;
   text-decoration: none;
    /*pixel perfect*/
-   margin: 0 14px 0 0;
+   margin: 0 19px 0 0;
 }
 
 .footer__link:last-child {
   margin: 0;
 }
+
+@media screen and (min-width: 700px) and (max-width: 767px) {
+  .footer__link {
+ margin: 0 10px 0 0;
+}}
+
+@media screen and (min-width: 321px) and (max-width: 699px) {
+  .footer__link {
+  font-size: 14px;
+  margin: 0 5px 0 0;
+}}
 
 @media screen and (max-width: 320px) {
   .footer__link {

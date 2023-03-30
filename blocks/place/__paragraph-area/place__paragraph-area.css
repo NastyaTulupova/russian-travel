@@ -3,36 +3,17 @@
   display: flex;
   flex-direction: column;
   /*pixel perfect:*/
-  gap: 24px;
-  grid-area: paragraph;
+  gap: 27px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
   .place__paragraph-area {
-    max-width: 456px;
-    gap: 24px;
+    gap: 28px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) {
   .place__paragraph-area {
-    max-width: 352px;
-    gap: 23px;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 640px) {
-  .place__paragraph-area {
-    max-width: calc(100% - 16px*2);
-    gap: 23px;
-    margin: 0 0 0 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__paragraph-area {
-    max-width: 288px;
-    gap: 23px;
-    margin: 0 0 0 16px;
+    margin: 0 16px;
   }
 }

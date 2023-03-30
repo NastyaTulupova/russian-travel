@@ -1,3 +1,22 @@
 .cover {
-
+  background-image: url("../../images/__background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  width: calc(100% - (48px*2));
 }
+
+.cover::after {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: -1px;
+  padding-top: calc(740 / 1184 * 100%);
+}
+
+@media screen and (max-width: 1184px) {
+  .cover{
+  width: 100%;
+}}

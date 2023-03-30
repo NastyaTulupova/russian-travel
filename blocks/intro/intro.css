@@ -30,9 +30,7 @@
   .intro {
     max-width: calc(100% - 16px*2);
     min-height: 754px;
-    align-self: center;
-    padding-left: 0;
     padding-bottom: 64px;
-    padding-top: 64px;
+    padding-top: 63px;
   }
 }
